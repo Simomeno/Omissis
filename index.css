@@ -232,7 +232,22 @@ p {
 
 @media screen and (max-width: 768px) {
     body{
-        font-size: 14px;
+        font-size: 15px;
+        height: 100vh; /* Fallback per browser vecchi */
+        height: 100dvh; /* Altezza dinamica che ignora la barra di navigazione su mobile */
+        overflow: hidden;
+    }
+
+    #main {
+        position: relative; /* Rimuove il posizionamento assoluto */
+        left: 0;
+        bottom: auto;
+        width: 100%;
+        flex: 1; /* Prende tutto lo spazio rimanente sotto la navbar */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; /* Mantiene l'elenco dei file ancorato in basso */
+        padding-bottom: 5px;
     }
 
     .censored{
