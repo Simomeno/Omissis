@@ -6,7 +6,7 @@
 @font-face {
     font-family: 'GeistMono';
     src: url('Assets/Fonts/GeistMono-Regular.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
 }
 
