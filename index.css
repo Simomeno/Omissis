@@ -233,6 +233,13 @@ p {
 @media screen and (max-width: 768px) {
     body{
         font-size: 15px;
+        
+    }
+    .navbar {
+        flex-shrink: 0;
+    }
+
+    body.home-fixed{
         height: 100vh; /* Fallback per browser vecchi */
         height: 100dvh; /* Altezza dinamica che ignora la barra di navigazione su mobile */
         overflow: hidden;
@@ -261,7 +268,7 @@ p {
     }
 
     #text-about{
-        position: absolute;
+        position: relative;
         width: 94%;
         margin-left: 0%;
         top: 30px;
