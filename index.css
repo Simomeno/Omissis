@@ -243,6 +243,22 @@ p {
     content: "[PAUSE]";
 }
 
+#text-about-1{
+    position: absolute;
+    color: black;
+    margin-top: 50vh;
+    width: 30%;
+    margin-left: 10px;
+}
+
+#text-about-2{
+    position: absolute;
+    color: black;
+    margin-top: 50vh;
+    width: 60%;
+    margin-left: 38.7%;
+}
+
 @media screen and (max-width: 768px) {
     body{
         font-size: 15px;
@@ -286,6 +302,24 @@ p {
         margin-left: 0%;
         top: 30px;
     }
+      #main2{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #text-about-1{
+        position:relative;
+        margin-top: 5vh;
+        width: 90%;
+        margin-left: 0%;
+    }
     
+    #text-about-2{
+        position: relative;
+        margin-top: 5vh;
+        width: 90%;
+        margin-left: 0%;
+    }
 
 }
